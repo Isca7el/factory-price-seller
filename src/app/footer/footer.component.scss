@@ -1,17 +1,19 @@
-.footer,
-.footer-logo {
+.footer-wrapper,
+.footer-logo,
+.footer-links {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
 
 .footer{
+  margin-top: 30px;
   padding-top: 30px;
   background: #073561;
 }
 
 .footer-descriptions{
-  width: 120px;
+  width: 140px;
 
   padding-left: 20px;
 }
@@ -36,12 +38,67 @@
   width: 84px;
 }
 
+.footer-links{
+  width: 750px;
+}
+
 .footer-logo_title{
   font-family: 'Open Sans', serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 88.5%;
   margin: 0;
+}
+
+.footer-useful_item,
+.footer-buyer_item,
+.footer-company_link,
+.footer-company_item {
+  margin-bottom: 10px;
+}
+
+.footer-social{
+  margin-bottom: 20px;
+}
+
+.footer-buyer_item-link,
+.footer-useful_item-link,
+.footer-company_item-link {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #FFFFFF;
+}
+
+.footer-company_item:first-child .footer-company_item-link,
+.footer-useful_item:first-child .footer-useful_item-link,
+.footer-buyer_item:first-child .footer-buyer_item-link{
+  color: #EAA33E;
+}
+
+.copyright{
+  padding-top: 70px;
+  font-family: 'Poppins';
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.footer-socials{
+  padding-right: 250px;
+}
+
+.instagram,
+.facebook{
+  width: 28px;
+  height: 28px;
+}
+
+.youtube{
+  width: 30px;
+  height: 21px;
 }
 
 
