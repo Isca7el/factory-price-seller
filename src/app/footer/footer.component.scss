@@ -1,0 +1,49 @@
+.footer,
+.footer-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer{
+  padding-top: 30px;
+  background: #073561;
+}
+
+.footer-descriptions{
+  width: 120px;
+
+  padding-left: 20px;
+}
+
+.footer-text{
+  width: 252px;
+
+  padding-top: 40px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.footer-logo_image{
+  width: 27px;
+  height: 32px;
+}
+
+.footer-logo_wrapper{
+  width: 84px;
+}
+
+.footer-logo_title{
+  font-family: 'Open Sans', serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 88.5%;
+  margin: 0;
+}
+
+
+
+

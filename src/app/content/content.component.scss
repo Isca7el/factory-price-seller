@@ -1,0 +1,285 @@
+.news,
+.sale,
+.popular,
+.brand,
+.discount,
+.season {
+  padding: 30px 20px 0 20px;
+}
+
+.news-titles,
+.sale-titles,
+.popular-titles,
+.brand-wrapper,
+.discount-wrapper,
+.season-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.news-title,
+.news-link,
+.sale-title,
+.sale-link,
+.popular-title,
+.popular-link,
+.brand-title,
+.discount-title,
+.season-title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.brand-title{
+  color: #34B1B1;
+}
+
+.discount-title{
+  color: #FF3D3D;
+}
+
+.season-title{
+color: #404858;
+}
+
+.news-title,
+.news-link{
+  color: #EAA33E;
+}
+
+.sale-title,
+.sale-link{
+  color: #073561;
+}
+
+.popular-title,
+.popular-link{
+  color: #909090;
+}
+
+.new-product_wrapper{
+  position: relative;
+}
+
+.news-products,
+.sales,
+.populars{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.new-product{
+  width: 315px;
+  height: 120px;
+
+  background: linear-gradient(360deg, rgba(64, 72, 88, 0.75) 0%, rgba(0, 0, 0, 0) 100%, rgba(64, 72, 88, 0.75) 100%);
+  border-radius: 10px;
+}
+
+.new-product_title{
+  width: 242px;
+  font-family: 'Zona Pro';
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 130%;
+
+  position: absolute;
+  top: 45px;
+  left: 16px;
+
+  color: #FFFFFF;
+}
+.sales-link,
+.populars-link,
+.discount-link{
+  width: 265px;
+  border: 1px solid #F4F4F5;
+  border-radius: 8px;
+}
+
+.sales-img-wrapper,
+.populars-img-wrapper,
+.discount-img-wrapper{
+  position: relative;
+  text-align: center;
+}
+
+.sales-wrapper,
+.populars-wrapper {
+  width: 265px;
+}
+
+.sales-img,
+.populars-img,
+.discount-img{
+  width: 264px;
+  height: 200px;
+}
+
+.sales-inner,
+.populars-inner,
+.discount-inner {
+  max-width: 105px;
+  height: 24px;
+
+  border-radius: 4px;
+  background: #073561;
+  text-align: center;
+
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+
+.sales-inner-title,
+.sales-num_title,
+.sales-discount_title,
+.populars-inner-title,
+.populars-num_title,
+.discount-inner-title,
+.discount-num_title{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  line-height: 24px;
+}
+
+.stars{
+  display: flex;
+  flex-direction: row;
+
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.star-inner{
+  width: 15px;
+  height: 15px;
+
+  margin-right: 5px;
+}
+
+.sales-description,
+.populars-description,
+.discount-description {
+  padding-left: 10px;
+  width: 185px;
+  margin-top: 10px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.sales-num,
+.populars-num,
+.discount-num {
+  max-width: 250px;
+  height: 24px;
+
+  padding-left: 5px;
+
+  text-align: center;
+  align-items: center;
+
+  background: #800080;
+  border: 1px solid #EA7903;
+  border-radius: 4px;
+}
+
+.sales-discount{
+  width: 52px;
+  height: 24px;
+
+  text-align: center;
+  align-items: center;
+  border-radius: 4px;
+  background: #073561;
+}
+
+.sales-title,
+.populars-title,
+.discounts-title {
+  margin-top: 15px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.sales-before,
+.populars-before,
+.discount-before {
+  margin-top: 10px;
+
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: line-through;
+  color: #000000;
+}
+
+.sales-now,
+.populars-now,
+.discount-now {
+  margin-top: 10px;
+
+  font-family: 'Inter';
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
+.parallax {
+  padding: 30px 20px 0 20px;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.parallax-inner-img{
+  width: 540px;
+  height: 180px;
+}
+
+.populars-inner{
+  background: #919191;
+}
+
+.populars-num{
+  background: #EAA33E;
+}
+
+.brand-wrapper,
+.discount-wrapper,
+.season-wrapper {
+  margin-top: 20px;
+}
+
+.brand-inner-img{
+  width: 500px;
+  height: 250px;
+}
+
+.discount-inner{
+  background: #FF3D3D;
+}
+
+.season-inner{
+  border-radius: 10px;
+}
+
+.season-inner-img{
+  width: 690px;
+  height: 250px;
+}
+
