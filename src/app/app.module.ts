@@ -7,7 +7,6 @@ import { HeaderComponent } from './header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ContentComponent } from './content/content.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { SliderComponent } from './slider/slider.component';
 import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
@@ -15,7 +14,6 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     HeaderComponent,
     ContentComponent,
-    SliderComponent,
     FooterComponent,
   ],
   imports: [

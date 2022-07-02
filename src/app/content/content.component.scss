@@ -1,3 +1,4 @@
+.slider,
 .news,
 .sale,
 .popular,
@@ -6,13 +7,39 @@
 .season {
   padding: 30px 20px 0 20px;
 }
+.slider{
+  text-align: center;
+}
+
+.slider-navigation{
+}
+
+.slider-dots_list{
+  max-width: 240px;
+
+  margin: 10px 0 0;
+}
+
+.slider-dots_item{
+  width: 10px;
+  height: 10px;
+
+  border-radius: 50%;
+
+  background: #E5E5E5;
+}
+
+.active-dot{
+  background: #34B1B1;
+}
 
 .news-titles,
 .sale-titles,
 .popular-titles,
 .brand-wrapper,
 .discount-wrapper,
-.season-wrapper {
+.season-wrapper,
+.slider-dots_list{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
